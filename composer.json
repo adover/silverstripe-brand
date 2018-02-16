@@ -10,10 +10,12 @@
             "email": "adrexia@gmail.com"
         }
     ],
-    "expose": [
-        "images",
-        "resources"
-    ],
+    "extra": {
+        "expose": [
+            "images",
+            "resources"
+        ]
+    },
     "require":
     {
         "silverstripe/framework": "^4.0",
