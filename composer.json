@@ -10,17 +10,22 @@
             "email": "adrexia@gmail.com"
         }
     ],
+    "expose": [
+        "images",
+        "resources"
+    ],
     "require":
     {
         "silverstripe/framework": "^4.0",
         "littlegiant/silverstripe-singleobjectadmin": "^2.0",
         "ryanpotter/silverstripe-color-field": "dev-master",
-        "heyday/silverstripe-colorpalette": "dev-master"
+        "heyday/silverstripe-colorpalette": "dev-master",
+        "silverstripe/vendor-plugin": "^1.0"
     },
 	"repositories": [
 		{
 			"type": "vcs",
-			"url": "https://github.com/wernerkrauss/silverstripe-colorpalette.git"
+			"url": "https://github.com/adover/silverstripe-colorpalette.git"
 		},
 		{
 			"type": "vcs",
